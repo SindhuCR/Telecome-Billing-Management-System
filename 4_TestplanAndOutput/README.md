@@ -1,6 +1,6 @@
 *Test plan* is required to understand the scope and the risks that are to be tested and not tested. It can also be useful in deciding the entry and exit criteria. This is also done to evaluate the test estimate.
 
-*Test Strategy*
+*Test Strategy*:
 *Features to be tested*:
 To add the records to the list	The records can be added to the list by entering the new user account number, phone number,user name and the amount.
 To list the existing records	The available records can be viewed in the list.
