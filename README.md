@@ -10,7 +10,7 @@ Features:
 
 Advantages of the System:
 
-1.Planned approach towards working : The working in the organization will be planned well and organized data will be stored properly in the database which will help in retrieval of information as well as storage.\n
+1.Planned approach towards working : The working in the organization will be planned well and organized data will be stored properly in the database which will help in retrieval of information as well as storage.
 2.Accuracy : The level of accuracy in the proposed system will be higher. All operations would be correctly done and it ensures that whatever information is coming from the centre is correct.
 3.Immediate retrieval of information : The data retrieval is just a click away  rather than going through a lot of registers the whole day. It also saves a lot of time.
 4.Immediate storage of information : Data is easy to store can be saved with no difficulty.
