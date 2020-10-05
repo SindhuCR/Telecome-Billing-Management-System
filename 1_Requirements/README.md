@@ -1,7 +1,12 @@
 *Software*: Code::Blocks IDE Version 17.12
 *Operating System*: Windows.
 
-*Header Files Required*: ● <stdio.h> (Standard input-output header) : Used to perform input and output operations in C. ● <conio.h> (Console input-output header) : Perform console input and console output operations like clrscr() to clear the screen and getch() to get the character from the keyboard. ● <stdlib.h> (Standard library header) : Perform standard utility functions. ● <windows.h>:It is a windows specific header file used in C programming which contains declarations for all the functions in windows API.
+*Header Files Required*:
+● <stdio.h> (Standard input-output header) : Used to perform input and output operations in C. 
+● <conio.h> (Console input-output header) : Used to Perform console input and console output operations like clrscr() to clear the screen and getch() to get the character from the keyboard.
+● <stdlib.h> (Standard library header) : Used to Perform standard utility functions. 
+● <windows.h>:It is a windows specific header file used in C programming which contains declarations for all the functions in windows API.
+● <string.h>:Used to perform string type operations.
 
 *Functional Requirements*:
 ● Void Add Records(): Allows to add a new record. Adding new record requires phone number,account number,user name and amount to be paid.
