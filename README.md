@@ -23,3 +23,7 @@ Advantages of the System:
 5.Easy to handle: The system is not physically bulky so it is easy to handle and use as the staff has full access to the system for maintaining the records.
 
 6.Saves time: Instead of searching each record which eats up a lot of time this approach helps in quick search.
+
+
+
+![cppcheck-action](https://github.com/stepin104482/Telecome-Billing-Management-System/workflows/cppcheck-action/badge.svg)
