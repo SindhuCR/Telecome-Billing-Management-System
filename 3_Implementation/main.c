@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "telecom.h"
 int main()
 {	int password;
 	int phonenumber;
