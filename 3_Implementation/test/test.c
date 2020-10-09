@@ -3,9 +3,11 @@
 #include<telecom.h>
 #define PROJECT_NAME    "Telecom_Billing_Management_System"
 
-
-
-
+void test_addrecords();
+void test_listrecords();
+void test_modifyrecords();
+void test_searchrecords();
+void test_payment();
 
 int main() {
 
