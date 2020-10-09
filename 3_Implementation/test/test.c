@@ -15,6 +15,12 @@ int main() {
     return CU_get_error();
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
   
+  CU_add_test(suite, "addrecords", test_addrecords);
+  CU_add_test(suite, "listrecords", test_listrecords);
+  CU_add_test(suite, "modifyrecords", test_modifyrecords);
+  CU_add_test(suite, "searchrecords", test_searchrecords);
+  CU_add_test(suite, "payment", test_payment);
+ 
 
   CU_basic_set_mode(CU_BRM_VERBOSE);
 
