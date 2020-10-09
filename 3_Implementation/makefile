@@ -6,7 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/telecom.c\
+src/telecom.c
 
 # All test source files
 TEST_SRC = src/telecom.c
