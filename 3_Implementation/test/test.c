@@ -28,8 +28,11 @@ int main() {
   return 0;
 }
 void test_addrecords(void){
-  
-}
+  CU_ASSERT(123 == add(123));  //adding phonenumber
+  CU_ASSERT(321 == add(321));  //adding accountnumber
+  CU_ASSERT(abc == add(abc));  //adding username
+  CU_ASSERT(50 == add(50));   //adding payment
+ }
 
 void test_listrecords(void){
   
