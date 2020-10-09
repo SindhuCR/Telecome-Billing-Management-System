@@ -1,20 +1,28 @@
-OBJS	= main.o telecom.o
-SOURCE	= main.c telecom.c
-HEADER	= telecom.h
-OUT	= test.out
-CC	 = gcc
-FLAGS	 = -g -c -Wall
-LFLAGS	 = 
+# Name of the project
+PROJECT_NAME = telecom_billing
 
-all: $(OBJS)
-	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
+# Output directory
+BUILD = build
 
-main.o: main.c
-	$(CC) $(FLAGS) main.c 
+# All source code files
+SRC = main.c\
+src/telecom.c\
 
-telecom.o: telecom.c
-	$(CC) $(FLAGS) telecom.c 
+# All test source files
+TEST_SRC = src/telecom.c
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
-clean:
-	rm -f $(OBJS) $(OUT)
+# All include folders with header files
+INC	= -Iinc
+
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+
+# Document files
+DOCUMENTATION_OUTPUT = documentation/html
+
+# Default target built
+$(PROJECT_NAME):all
+
+# Run the target even if the matching name exists
+.PHONY: run clean test  doc all
