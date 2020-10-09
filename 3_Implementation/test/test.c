@@ -3,11 +3,11 @@
 #include<telecom.h>
 #define PROJECT_NAME    "Telecom_Billing_Management_System"
 
-void test_addrecords();
-void test_listrecords();
-void test_modifyrecords();
-void test_searchrecords();
-void test_payment();
+void test_addrecords(void);
+void test_listrecords(void);
+void test_modifyrecords(void);
+void test_searchrecords(void);
+void test_payment(void);
 
 int main() {
 
@@ -23,14 +23,28 @@ int main() {
  
 
   CU_basic_set_mode(CU_BRM_VERBOSE);
-
-
   CU_basic_run_tests();
-
-
   CU_cleanup_registry();
-
   return 0;
+}
+void test_addrecords(void){
+  
+}
+
+void test_listrecords(void){
+  
+}
+
+void test_modifyrecords(void){
+  
+}
+
+void test_searchrecords(void){
+  
+}
+
+void test_payment(void){
+  
 }
 
 
