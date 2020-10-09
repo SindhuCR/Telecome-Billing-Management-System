@@ -9,7 +9,8 @@ SRC = main.c\
 src/telecom.c
 
 # All test source files
-TEST_SRC = src/telecom.c
+TEST_SRC = src/telecom.c\
+test/test.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
